@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Ukanwoke | Front-End Developer</title>
+<link rel="icon" href="images/logo.png">
+<meta name="description" content="Personal website of David Ukanwoke, Computer Science graduate and front-end developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#home" class="logo"><img src="images/logo.png" alt="Ukanwoke David logo"></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  <nav id="menu" class="menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="greeting">Hi, I'm</p>
+      <h1>David Ukanwoke</h1>
+      <p class="role">I build <span id="typed" class="typed"></span><span class="caret">|</span></p>
+      <p class="lead">Computer Science graduate of FUTO (Second Class Upper), looking for a front-end developer or trainee role where I can build clean, fast interfaces.</p>
+      <div class="actions">
+        <a class="btn" href="#projects">View my work</a>
+        <a class="btn ghost" href="#contact">Contact me</a>
+      </div>
+    </div>
+    <img class="hero-img" src="images/me.jpg" alt="Portrait of David Ukanwoke">
+  </section>
+
+  <section id="about" class="section">
+    <h2>About me</h2>
+    <div class="about">
+      <img src="images/about.jpg" alt="David Ukanwoke in a purple traditional outfit">
+      <div>
+        <p>I graduated from the Federal University of Technology Owerri with a degree in Computer Science. Along the way I built full-stack projects, including a course registration app and a university result management system.</p>
+        <p>Before that, I worked as a freelance graphic designer, creating brand assets and UI mockups in Figma and Canva. That background shapes how I write front-end code: I care about how a page looks and how it feels to use.</p>
+        <p>Outside code, I play chess and follow football.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <h2>Skills</h2>
+    <div class="grid3">
+      <div class="card">
+        <h3>Languages</h3>
+        <ul class="tiles">
+          <li><i class="devicon-html5-plain colored"></i><span>HTML</span></li>
+          <li><i class="devicon-css3-plain colored"></i><span>CSS</span></li>
+          <li><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></li>
+          <li><i class="devicon-python-plain colored"></i><span>Python</span></li>
+          <li><i class="devicon-mysql-plain colored"></i><span>MySQL</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Design</h3>
+        <ul class="tiles">
+          <li><i class="devicon-figma-plain colored"></i><span>Figma</span></li>
+          <li><b class="badge" aria-hidden="true">C</b><span>Canva</span></li>
+        </ul>
+        
+      </div>
+      <div class="card">
+        <h3>Tools</h3>
+        <ul class="tiles">
+          <li><i class="devicon-vercel-original"></i><span>Vercel</span></li>
+          <li><i class="devicon-git-plain colored"></i><span>Git/GitHub</span></li>
+          <li><i class="devicon-excel-plain colored"></i><span>Microsoft<br>Excel</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="grid3">
+      <article class="card project">
+        <img src="images/coursify.png" alt="Screenshot of Coursify">
+        <div class="card-body">
+          <h3>Coursify</h3>
+          <p>A course registration web app for FUTO students, with session-based login. Built with HTML, CSS and JavaScript and deployed on Vercel.</p>
+          <a href="https://coursify-futo.vercel.app/" class="link" target="_blank" rel="noopener">View project</a>
+        </div>
+
+      </article>
+            <article class="card project">
+        <img src="images/uzo-afo.jpg" alt="Screenshot of Uzo-Afo Restaurant">
+        <div class="card-body">
+          <h3>Uzo-Afo Restaurant</h3>
+          <p>A single-page website for a Nigerian restaurant in Lagos, with a menu, brand colours and WhatsApp ordering.</p>
+          <a href="https://uzoaforfoods.vercel.app/" class="link" target="_blank" rel="noopener">View project</a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <img src="images/cscresultportal.png" alt="Screenshot of CSCResultPortal">
+        <div class="card-body">
+          <h3>CSCResultPortal</h3>
+          <p>My final year project: a multi-role result management system for a university department, covering staff, students and admin workflows.</p>
+          <a href="https://cscresultportal.up.railway.app/" class="link" target="_blank" rel="noopener">View project</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="experience" class="section alt">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <time>Jul 2025 to Nov 2025</time>
+        <h3>Intern, Byaxiom Nigeria</h3>
+        <p>Learned software development and website design, built a portfolio, and delivered websites for a restaurant and a clothing brand.</p>
+      </li>
+      <li>
+        <time>Dec 2022 to 2025</time>
+        <h3>Freelance Graphic Designer</h3>
+        <p>Designed branding assets in Canva and Figma, built UI mockups for web and mobile, and managed several design projects at once.</p>
+      </li>
+      <li>
+        <time>Sep 2021 to Sep 2026</time>
+        <h3>B.Tech Computer Science, FUTO</h3>
+        <p>Graduated with Second Class Upper. Certificates: Python (New Horizon Nigeria) and Front End (freeCodeCamp).</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="images/g1.jpg" alt="David with friends on jersey day">
+      <img src="images/g2.jpg" alt="David and a friend at the sign-out ground">
+      <img src="images/g3.jpg" alt="David and friends on corporate day">
+      <img src="images/g4.jpg" alt="David after signing out of school">
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <h2>Contact</h2>
+    <div class="contact">
+      <div>
+        <p>Have a role or project in mind? Send me a message.</p>
+        <p><a href="mailto:davidukanwoke@gmail.com">davidukanwoke@gmail.com</a></p>
+        <p><a href="tel:+2347041294706">07041294706</a></p>
+        <p><a href="https://linkedin.com/in/david-ukanwoke" target="_blank" rel="noopener">linkedin.com/in/david-ukanwoke</a></p>
+      </div>
+      <form id="form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name">
+        <small class="err" data-for="name"></small>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email">
+        <small class="err" data-for="email"></small>
+        <label for="msg">Message</label>
+        <textarea id="msg" name="msg" rows="4"></textarea>
+        <small class="err" data-for="msg"></small>
+        <button class="btn" type="submit">Send message</button>
+        <p id="status" class="status" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">&copy; 2026 Ukanwoke David</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="close" id="close" aria-label="Close photo">&times;</button>
+  <img id="lbImg" src="" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
